@@ -332,13 +332,14 @@ width: 25%;
 @media (max-width: 500px){
 
 body
-nav {
+nav
+{
   width: 500px;
   height: auto;
   display: flex;
   flex-direction: column;
+  }
 
-}
 
 nav{
   justify-content: center;
@@ -352,6 +353,7 @@ a{
   padding-left: 100%;
   padding-right: 100%;
   border-top: 1px solid black;
+  padding-top: 4.5%
 
 }
   .rImg{
@@ -378,16 +380,37 @@ header nav a {
   margin-right: 0;
   display: flex;
   margin-top: 5%;
-
-}
-}
-}
-.logo{
-  /* display: flex; */
-  /* justify-content: center; */
 }
 
-.middle-img{
-  width: auto 0;
+
+.top-content{
+  display: flex;
+  flex-direction: column;
+
+
 }
+.text-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 500px;
+}
+.main-content .top-content .text-content,
+.main-content .bottom-content .text-content
+{
+  width: 500px;
+}
+
+img{
+width: 85%;
+display: flex;
+margin-left: 7.5%
+
+}
+.bottom-content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
   }
