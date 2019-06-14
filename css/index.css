@@ -384,6 +384,7 @@ width: 25%;
     margin-top: 20px;
 
   }
+}
   @media (max-width: 500px){
 
   body
@@ -442,7 +443,12 @@ width: 25%;
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
+  a:first-of-type{
+    border-top: 2px solid gray;
+  }
+  a:last-of-type{
+    border-bottom: 2px solid gray;
+  }
   header nav {
     margin-top: 0;
   }
@@ -484,6 +490,6 @@ margin-left: 7.5%;
     margin-top: 20px;
   }
 
-    }
+
 
     }
